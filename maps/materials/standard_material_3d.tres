@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://cak3oe6xyf8rg"]
+
+[ext_resource type="Texture2D" uid="uid://w0n6y3euba6y" path="res://maps/materials/basic_tile.png" id="1_n16qj"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ngsh8"]
+load_path = "res://.godot/imported/basic_tiles.png-61097c3d4aeb8b95b9c5bed675e32400.ctex"
+
+[resource]
+shading_mode = 0
+specular_mode = 2
+albedo_texture = ExtResource("1_n16qj")
+heightmap_texture = SubResource("CompressedTexture2D_ngsh8")
+uv1_scale = Vector3(0.125, 0.125, 0.125)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 150.0
+uv1_world_triplanar = true
+texture_filter = 4
+grow_amount = 6.323
+point_size = 0.1
+distance_fade_mode = 1
+distance_fade_max_distance = 3.25
